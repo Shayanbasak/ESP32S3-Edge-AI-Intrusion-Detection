@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arduino / PlatformIO / IDE
+.vscode/
+.idea/
+build/
+*.elf
+*.bin
+*.map
+*.hex
+*.eep
+*.lst
+
+# OS / temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+
+# Secrets / local configuration
+.env
+secrets.h
+credentials.h
+config_private.h
+
+# Generated archives
+*.zip
